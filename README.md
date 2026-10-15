@@ -22,3 +22,9 @@ This creates `data/study_time.csv` and `outputs/study_time_scatter.png`.
 ```bash
 python -m unittest discover -s tests -v
 ```
+
+## Continuous integration
+
+[![Python CI](https://github.com/Fakude/scatterplots.py/actions/workflows/ci.yml/badge.svg)](https://github.com/Fakude/scatterplots.py/actions/workflows/ci.yml)
+
+GitHub Actions installs requirements and runs the deterministic unit tests on Python 3.12 for every push and pull request. The workflow is in `.github/workflows/ci.yml`.
